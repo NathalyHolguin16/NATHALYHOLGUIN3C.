@@ -33,7 +33,7 @@ export class persona {
         this._numero_de_identificacion=numero_de_identificacion
         this._estado_civil=estado_civil;
     }
-    public cambio_de_estado_civil(su_nuevo_estado_civil){
+    public cambio_de_estado_civil(su_nuevo_estado_civil:string){
         this._estado_civil=su_nuevo_estado_civil;
     }
     public datos_persona (){

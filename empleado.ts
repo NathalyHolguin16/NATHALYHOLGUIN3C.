@@ -24,6 +24,5 @@ export class empleado extends persona{
     public reasignación_de_despacho(su_nuevo_despacho:number){
         this.numero_de_despacho=su_nuevo_despacho;
     }
-   
 }
 
